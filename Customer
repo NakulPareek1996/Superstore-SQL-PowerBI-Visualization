@@ -1,0 +1,43 @@
+Create table Superstore.Customer
+(
+RowID int,
+CustomerID int,
+CustomerName varchar(100),
+Segment varchar(100),
+Country/Region varchar(100),
+City varchar(100),
+State varchar(100),
+PostalCode int,
+Region varchar(100)
+);
+
+
+INSERT INTO Superstore.Orders (RowID, CustomerID, CustomerName, Segment, Country/Region, City, State, PostalCode, Region)
+VALUES (1, 'CG-12520', 'Claire Gute', 'Consumer', 'United States', 'Henderson', 'Kentucky', '42420', 'South');
+
+INSERT INTO Superstore.Orders (RowID, OrderID, OrderDate, ShipDate, ShipMode)
+VALUES (2, 'CG-12520', 'Claire Gute', 'Consumer', 'United States', 'Henderson', 'Kentucky', '42420', 'South');
+
+INSERT INTO Superstore.Orders (RowID, OrderID, OrderDate, ShipDate, ShipMode)
+VALUES (3, 'DV-13045', 'Darrin Van Huff', 'Corporate', 'United States', 'Los Angeles', 'California', '90036', 'West');
+
+INSERT INTO Superstore.Orders (RowID, OrderID, OrderDate, ShipDate, ShipMode)
+VALUES (4, 'SO-20335', 'Sean O'Donnell', 'Consumer', 'United States', 'Fort Lauderdale', 'Florida', '33311', 'South');
+
+INSERT INTO Superstore.Orders (RowID, OrderID, OrderDate, ShipDate, ShipMode)
+VALUES (5, 'SO-20335', 'Sean O'Donnell', 'Consumer', 'United States', 'Fort Lauderdale', 'Florida', '33311', 'South');
+
+INSERT INTO Superstore.Orders (RowID, OrderID, OrderDate, ShipDate, ShipMode)
+VALUES (6, 'BH-11710', 'Brosina Hoffman', 'Consumer', 'United States', 'Los Angeles', 'California', '90032', 'West');
+
+INSERT INTO Superstore.Orders (RowID, OrderID, OrderDate, ShipDate, ShipMode)
+VALUES (7, 'BH-11710', 'Brosina Hoffman', 'Consumer', 'United States', 'Los Angeles', 'California', '90032', 'West');
+
+INSERT INTO Superstore.Orders (RowID, OrderID, OrderDate, ShipDate, ShipMode)
+VALUES (8, 'BH-11710', 'Brosina Hoffman', 'Consumer', 'United States', 'Los Angeles', 'California', '90032', 'West');
+
+INSERT INTO Superstore.Orders (RowID, OrderID, OrderDate, ShipDate, ShipMode)
+VALUES (9, 'BH-11710', 'Brosina Hoffman', 'Consumer', 'United States', 'Los Angeles', 'California', '90032', 'West');
+
+INSERT INTO Superstore.Orders (RowID, OrderID, OrderDate, ShipDate, ShipMode)
+VALUES (10, 'BH-11710', 'Brosina Hoffman', 'Consumer', 'United States', 'Los Angeles', 'California', '90032', 'West');
