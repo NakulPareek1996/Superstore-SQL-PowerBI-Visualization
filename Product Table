@@ -1,0 +1,45 @@
+Create table Superstore.Product
+(
+RowID int,
+ProductID int,
+Category varchar(100),
+Sub-Category varchar(100),
+ProductName varchar(100),
+Sales int,
+Quantity int,
+Discount int,
+Profit int
+);
+
+
+INSERT INTO Superstore.Product (RowID, ProductID, Category, Sub-Category, ProductName, Sales, Quantity, Discount, Profit)
+VALUES (1, 'FUR-BO-10001798', 'Furniture', 'Bookcases', 'Bush Somerset Collection Bookcase', '261.96', '2', '0', '41.9136');
+
+INSERT INTO Superstore.Product (RowID, ProductID, Category, Sub-Category, ProductName, Sales, Quantity, Discount, Profit)
+VALUES (2, 'FUR-CH-10000454', 'Furniture', 'Chairs', 'Hon Deluxe Fabric Upholstered Stacking Chairs (Rounded Back)', '731.94', '3', '0', '219.582');
+
+INSERT INTO Superstore.Product (RowID, ProductID, Category, Sub-Category, ProductName, Sales, Quantity, Discount, Profit)
+VALUES (3, 'OFF-LA-10000240', 'Office Supplies', 'Labels', 'Self-Adhesive Address Labels for Typewriters by Universal', '14.62', '2', '0', '6.8714');
+
+INSERT INTO Superstore.Product (RowID, ProductID, Category, Sub-Category, ProductName, Sales, Quantity, Discount, Profit)
+VALUES (4, 'FUR-TA-10000577', 'Furniture', 'Tables', 'Bretford CR4500 Series Slim Rectangular Table', '957.5775', '5', '0.45', '-383.031');
+
+INSERT INTO Superstore.Product (RowID, ProductID, Category, Sub-Category, ProductName, Sales, Quantity, Discount, Profit)
+VALUES (5, 'OFF-ST-10000760', 'Office Supplies', 'Storage', 'Eldon Fold 'N Roll Cart System', '22.368', '2', '0.2', '2.5164');
+
+INSERT INTO Superstore.Product (RowID, ProductID, Category, Sub-Category, ProductName, Sales, Quantity, Discount, Profit)
+VALUES (6, 'FUR-FU-10001487', 'Furniture', 'Furnishings', 'Eldon Expressions Wood and Plastic Desk Accessories(Cherry Wood)', '48.86', '7', '0', '14.1694');
+
+INSERT INTO Superstore.Product (RowID, ProductID, Category, Sub-Category, ProductName, Sales, Quantity, Discount, Profit)
+VALUES (7, 'OFF-AR-10002833', 'Office Supplies', 'Art', 'Newell 322', '7.28', '4', '0', '1.9656');
+
+INSERT INTO Superstore.Product (RowID, ProductID, Category, Sub-Category, ProductName, Sales, Quantity, Discount, Profit)
+VALUES (8, 'TEC-PH-10002275', 'Technology', 'Phones', 'Mitel 5320 IP Phone VoIP phone', '907.152', '6', '0.2', '90.7152');
+
+INSERT INTO Superstore.Product (RowID, ProductID, Category, Sub-Category, ProductName, Sales, Quantity, Discount, Profit)
+VALUES (9, 'OFF-BI-10003910', 'Office Supplies', 'Binders', 'DXL Angle-View Binders with Locking Rings by Samsill', '18.504', '3', '0.2', '5.7825');
+
+INSERT INTO Superstore.Product (RowID, ProductID, Category, Sub-Category, ProductName, Sales, Quantity, Discount, Profit)
+VALUES (10, 'OFF-AP-10002892', 'Office Supplies', 'Appliances', 'Belkin F5C206VTEL 6 Outlet Surge', '114.9', '5', '0', '34.47');
+
+
