@@ -1,0 +1,28 @@
+SELECT
+    Order.RowID,
+    Order.OrderID,
+    Order.OrderDate,
+    Order.ShipDate,
+    Order.ShipMode,
+    Customer.CustomerID,
+    Customer.CustomerName,
+    Customer.Segment,
+    Customer.CountryRegion,
+    Customer.City,
+    Customer.State,
+    Customer.PostalCode,
+    Customer.Region AS CustomerRegion,
+    Product.ProductID,
+    Product.Category,
+    Product.SubCategory,
+    Product.ProductName,
+    Product.Sales,
+    Product.Quantity,
+    Product.Discount,
+    Product.Profit
+FROM
+    Orders o
+JOIN
+    Customers c ON o.RowID = c.RowID
+JOIN
+    Products p ON o.RowID = p.RowID;
